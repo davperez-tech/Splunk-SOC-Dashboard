@@ -27,4 +27,39 @@ The purpose of this project is to showcase practical SIEM skills, realistic dete
 
 ## Dashboard Design
 The dashboard was structured to mirror how a real SOC monitors authentication-based threats, combining high-level metrics with analyst-driven investigation views.
-### High-Level Monitoring Panels
+
+- Total Failed Logons
+  
+This panel provides an immediate, high-level view of authentication attack volume against the system.
+
+- Top Attacking Source IP Addresses
+  
+Identifies the most active sources generating failed authentication attempts.
+
+- Failed Logons by Country
+  
+Provides geographic context for where attacks are originating.
+
+- Most Targeted Usernames
+
+Shows which accounts are being repeatedly targeted during authentication failures.
+
+- Failed Logons by Logon Type
+  
+Breaks down authentication failures by logon mechanism\
+
+- SOC Investigation Drill-Down Panel
+  
+Provides direct access to raw authentication events for validation and investigation.
+
+
+## Methodology
+1. Environment Setup
+A Windows virtual machine was deployed in the cloud and intentionally left exposed to receive real-world authentication attempts.
+
+2. Log Collection & Ingestion
+Windows Security Event logs were collected and indexed in Splunk, with a focus on Event ID 4625.
+
+3. Detection Engineering
+SPL queries were developed to identify brute-force and password spraying behavior using thresholds, aggregation, and time-based analysis.
+

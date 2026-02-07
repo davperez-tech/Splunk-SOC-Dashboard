@@ -59,6 +59,7 @@ A Windows virtual machine was deployed in the cloud and intentionally left expos
 
 2. Log Collection & Ingestion
 Windows Security Event logs were collected and indexed in Splunk, with a focus on Event ID 4625.
+- [Forwarder File](https://github.com/davperez-tech/Splunk-SOC-Dashboard/blob/main/Forwarder/inputs.conf)
 
 3. Detection Engineering
 SPL queries were developed to identify brute-force and password spraying behavior using thresholds, aggregation, and time-based analysis.

@@ -1,1 +1,2 @@
-
+index=soc-lab EventCode=4625
+| stats count as "Failed Logons"

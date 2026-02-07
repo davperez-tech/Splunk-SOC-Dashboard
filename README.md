@@ -32,15 +32,15 @@ The dashboard was structured to mirror how a real SOC monitors authentication-ba
   
 This panel provides an immediate, high-level view of authentication attack volume against the system.
 
-- Top Attacking Source IP Addresses
+- [Top Attacking Source IP Addresses](https://github.com/davperez-tech/Splunk-SOC-Dashboard/blob/main/splunk-queries/TopAttackingSourceIPAddress.spl)
   
 Identifies the most active sources generating failed authentication attempts.
 
-- Failed Logons by Country
+- [Failed Logons by Country](https://github.com/davperez-tech/Splunk-SOC-Dashboard/blob/main/splunk-queries/FailedLogonsbyCountry.spl)
   
 Provides geographic context for where attacks are originating.
 
-- Most Targeted Usernames
+- [Most Targeted Usernames](https://github.com/davperez-tech/Splunk-SOC-Dashboard/blob/main/splunk-queries/MostTargetedUsernames.spl)
 
 Shows which accounts are being repeatedly targeted during authentication failures.
 

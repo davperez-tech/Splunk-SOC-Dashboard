@@ -1,0 +1,5 @@
+index=soc-lab EventCode=4625 earliest="01/15/2026:21:00:00" latest="01/16/2026:17:00:00"
+| stats count by src_ip
+| sort - count
+| head 10
+| rename src_ip as "Source IP"

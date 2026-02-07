@@ -4,7 +4,7 @@
 ## Introduction
 This project demonstrates the design and implementation of a SOC-style security monitoring dashboard using Splunk, focused on detecting and analyzing unauthorized authentication attempts against a Windows system.
 
-To simulate real-world attack conditions, a Windows virtual machine was intentionally exposed to the internet, allowing organic attack traffic such as brute-force and password spraying attempts to occur. Windows Security Event logs were ingested into Splunk and analyzed from the perspective of a Tier-1/Tier-2 SOC analyst.
+To simulate real-world attack conditions, a Windows virtual machine was intentionally exposed to the internet, allowing organic attack traffic such as brute-force and password spraying attempts to occur. Windows Security Event logs were ingested into Splunk and analyzed from the perspective of a SOC analyst.
 
 The purpose of this project is to showcase practical SIEM skills, realistic detection logic, and the ability to align findings with the MITRE ATT&CK framework.
 
@@ -68,11 +68,13 @@ SPL queries were developed to identify brute-force and password spraying behavio
 ## DEMO
 
 
+https://github.com/user-attachments/assets/3aae10b4-e705-4a89-9442-f6403cb098d1
+
+
+
 ## Conclusion
 This project demonstrates the end-to-end process of building a SOC-ready Splunk dashboard for detecting credential access attacks using Windows authentication logs.
 
-It highlights practical SIEM engineering skills, realistic attacker behavior analysis, and the ability to adapt to platform limitations—an essential skill in real-world SOC environments.
-
-By aligning detections with the MITRE ATT&CK framework and emphasizing behavioral analytics, this project reflects how modern SOC teams monitor, detect, and investigate authentication-based threats.
+It highlights practical SIEM engineering skills, realistic attacker behavior analysis, and the ability to adapt to platform limitations, an essential skill in real-world SOC environments.
 
 

@@ -28,7 +28,7 @@ The purpose of this project is to showcase practical SIEM skills, realistic dete
 ## Dashboard Design
 The dashboard was structured to mirror how a real SOC monitors authentication-based threats, combining high-level metrics with analyst-driven investigation views.
 
-- Total Failed Logons
+- [Total Failed Logons](https://github.com/davperez-tech/Splunk-SOC-Dashboard/blob/main/splunk-queries/FailedLogonsOverTime.spl)
   
 This panel provides an immediate, high-level view of authentication attack volume against the system.
 

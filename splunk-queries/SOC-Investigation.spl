@@ -1,0 +1,3 @@
+index=soc-lab EventCode=4625 earliest="01/15/2026:21:00:00" latest="01/16/2026:17:00:00"
+| table _time Account_Name src_ip Logon_Type Failure_Reason ComputerName
+| sort - _time

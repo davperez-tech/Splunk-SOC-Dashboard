@@ -1,0 +1,4 @@
+index=soc-lab EventCode=4625 earliest="01/15/2026:21:00:00" latest="01/16/2026:17:00:00"
+| stats count by Account_Name
+| sort - count
+| head 10

@@ -44,11 +44,11 @@ Provides geographic context for where attacks are originating.
 
 Shows which accounts are being repeatedly targeted during authentication failures.
 
-- Failed Logons by Logon Type
+- [Failed Logons by Logon Type](https://github.com/davperez-tech/Splunk-SOC-Dashboard/blob/main/splunk-queries/FailedLogonsbyLogonType.spl)
   
-Breaks down authentication failures by logon mechanism\
+Breaks down authentication failures by logon mechanism
 
-- SOC Investigation Drill-Down Panel
+- [SOC Investigation Drill-Down Panel](https://github.com/davperez-tech/Splunk-SOC-Dashboard/blob/main/splunk-queries/SOC-Investigation.spl)
   
 Provides direct access to raw authentication events for validation and investigation.
 
@@ -62,4 +62,16 @@ Windows Security Event logs were collected and indexed in Splunk, with a focus o
 
 3. Detection Engineering
 SPL queries were developed to identify brute-force and password spraying behavior using thresholds, aggregation, and time-based analysis.
+
+
+## DEMO
+
+
+## Conclusion
+This project demonstrates the end-to-end process of building a SOC-ready Splunk dashboard for detecting credential access attacks using Windows authentication logs.
+
+It highlights practical SIEM engineering skills, realistic attacker behavior analysis, and the ability to adapt to platform limitations—an essential skill in real-world SOC environments.
+
+By aligning detections with the MITRE ATT&CK framework and emphasizing behavioral analytics, this project reflects how modern SOC teams monitor, detect, and investigate authentication-based threats.
+
 
